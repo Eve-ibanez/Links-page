@@ -1,0 +1,116 @@
+body {
+    background-color: black;
+    background-image: url(./Hexagon.svg);
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Changa', sans-serif;
+}
+
+.section-info {
+    margin: 40px;
+    margin-bottom: 0;
+    width: fit-content;
+}
+
+.avatar {
+    width: 120px;
+    border-radius: 50%;
+}
+
+.section-info__name {
+    font-size: 2.5em;
+    font-weight: 500;
+    margin: 0;
+}
+
+.section-info__info {
+    font-size: .9em;
+    font-weight: 100;
+    margin: 0;
+}
+
+.section-links {
+    margin: 0 40px;
+}
+
+.section-links__list {
+    border-radius: 20px;
+    background-color: #272727;
+    padding: 20px 0;
+    box-sizing: border-box;
+    width: 300px;
+}
+
+.section-links__list li {
+    height: 40px;
+    border-radius: 20px;
+    width: auto;
+    list-style-type:none;
+    margin: 10px 10px;
+    transition: 1s;
+}
+
+.section-links__list__tiktok {
+    background-color: #000;
+}
+
+.section-links__list__twitch {
+    background-color: #5709d4;
+}
+.section-links__list__instagram {
+    background: linear-gradient(110deg, #5709d4, #ba43ff, #ee410d, #f0ff1c ) ;
+}
+.section-links__list__youtube {
+    background-color: #ff0000;
+}
+
+.link {
+    box-sizing: border-box;
+    display: flex;
+    height: 40px;
+    width: 230px;
+    margin: 10px 20px;
+    text-decoration: none;
+    justify-content: center;
+}
+
+.link i {
+    font-size: 1.3em;
+    position: relative;
+    right: 80px;
+    margin-top: 10px;
+}
+
+.fa-instagram {
+    margin-left: 25px;
+}
+
+.fa-youtube {
+    margin-left: 10px;
+}
+
+.link span {
+    font-size: 1em;
+    margin: 5px 0;
+    color: #fff;
+}
+
+.share-button {
+    width: 200px;
+    height: 50px;
+    border-radius: 20px;
+    border: none;
+    background-color: #ff0000;
+    color: #fff;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    padding: 0 10px;
+    box-sizing: border-box;
+
+    display: none;
+}
+
+
+
