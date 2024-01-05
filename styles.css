@@ -9,7 +9,7 @@ body {
 }
 
 .section-info {
-    margin: 40px;
+    margin: 10px;
     margin-bottom: 0;
 }
 
@@ -31,15 +31,17 @@ body {
 }
 
 .section-links {
-    margin: 0 40px;
+    margin: auto;
+    width: 85vw;
+    max-width: 500px;
 }
 
 .section-links__list {
     border-radius: 20px;
     background-color: #272727;
-    padding: 20px 0;
+    padding: 10px 0;
     box-sizing: border-box;
-    width: 300px;
+    width: 100%;
 }
 
 .section-links__list li {
@@ -63,6 +65,12 @@ body {
 }
 .section-links__list__youtube {
     background-color: #ff0000;
+}
+.section-links__list__czmu {
+    background-color: #000;
+}
+.section-links__list__discord {
+    background-color: #5D6AF2;
 }
 
 .link {
@@ -88,6 +96,12 @@ body {
 
 .fa-youtube {
     margin-left: 10px;
+}
+
+.czmu {
+    position: relative;
+    top: -15px;
+    left: -80px;
 }
 
 .link span {
@@ -127,9 +141,6 @@ body {
     .section-info__info{
         font-size: 1.3em;
     }
-    .section-links {
-        margin: 60px;
-    }
     .section-links__list {
         width: 500px;
     }
@@ -143,6 +154,10 @@ body {
     .link i {
         right: 170px;
         font-size: 1.8em;
+    }
+    .czmu {
+        top: -10px;
+        left: -170px;
     }
     .link span {
         font-size: 1.4em;
